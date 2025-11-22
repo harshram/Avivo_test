@@ -40,7 +40,7 @@ def get_file_with_zip_fallback(file_name: str, zip_file_name: str) -> str:
     return contents
 
 
-# Updated 1/4/2024
+
 def num_tokens_from_messages(messages, model="gpt-3.5-turbo-0613"):
     """Return the number of tokens used by a list of messages."""
     try:
@@ -174,19 +174,6 @@ def get_n_nearest_neighbors(
         similarity between -1 and 1
     """
 
-    # This is not optimized for rapid indexing, but it's good enough for this example
-    # If you're using this in production, you should use a more efficient vector datastore such as
-    # those mentioned specifically by OpenAI here
-    #
-    #  https://platform.openai.com/docs/guides/embeddings/how-can-i-retrieve-k-nearest-embedding-vectors-quickly
-    #
-    #  * Pinecone, a fully managed vector database
-    #  * Weaviate, an open-source vector search engine
-    #  * Redis as a vector database
-    #  * Qdrant, a vector search engine
-    #  * Milvus, a vector database built for scalable similarity search
-    #  * Chroma, an open-source embeddings store
-    #
 
     target_embedding = np.array(query_embedding)
 

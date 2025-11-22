@@ -4,11 +4,7 @@ from typing import Iterable, List
 
 import numpy as np
 
-# Thanks to http://www.oldmanumby.com/ for his remaster and converion of the Dungeons
-# and Dragons 5th Edition SRD (Systems Reference Document)
-# https://github.com/OldManUmby/DND.SRD.Wiki
 
-# Thanks to Wizards of the Coast for DnD and preserving its openness with the Open Gaming License.
 
 
 def cosine_similarity(a, b):
