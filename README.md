@@ -50,4 +50,4 @@ The bot will prepare embeddings on first run (may take several minutes). Embeddi
 python -c "from F1_QA import prepare_embeddings; prepare_embeddings()"
 ```
 
-- Keep `embeddings.db` and `cache.db` (they speed up future runs). These files are added to `.gitignore`.
+- Keep `embeddings.db` and `cache.db` (they speed up future runs).These files are added to .gitignore
