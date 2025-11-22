@@ -51,3 +51,8 @@ python -c "from F1_QA import prepare_embeddings; prepare_embeddings()"
 ```
 
 - Keep `embeddings.db` and `cache.db` (they speed up future runs).These files are added to .gitignore
+
+## Screenshot  
+
+  <img width="701" height="832" alt="image" src="https://github.com/user-attachments/assets/32696e3a-a57c-45a1-b015-f8f0a6e0304c" />
+
