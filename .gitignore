@@ -8,8 +8,7 @@ f1_qa/
 venv/
 env/
 
-# Environment files
-.env
+
 
 # Databases and caches
 *.db
